@@ -1,0 +1,33 @@
+.header {
+  height: 75vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-dark, 0.9),
+      rgba($color-primary-light, 0.1)
+    ),
+    
+    // url(../img/johannes-plenio-247177-unsplash.jpg);
+    url(../img/niilo-isotalo-379496-unsplash.jpg);
+  background-size: cover;
+  background-position: top;
+  clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
+  position: relative;
+
+  &__logo-box {
+    position: absolute;
+    top: 3.5rem;
+    left: 3.5rem;
+  }
+
+  &__logo {
+    height: 4rem;
+  }
+
+  &__text-box {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
