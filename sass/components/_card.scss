@@ -1,0 +1,57 @@
+.card {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  height: 50rem;
+
+  &__side {
+    color: #fff;
+    font-size: 2rem;
+
+    height: 50rem;
+    transition: all 0.8s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
+
+    &--front {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba($color-grey-light-1, 0.1),
+          rgba($color-primary-light, 0.1)
+        ),
+          url(../img/niilo-isotalo-379496-unsplash.jpg);
+
+      background-size: cover;
+
+						
+    }
+
+    &--back {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba($color-primary-dark, 0.9),
+          rgba($color-primary-light, 0.1)
+        ),
+        url(../img/johannes-plenio-247177-unsplash.jpg);
+
+      transform: rotateY(180deg);
+    }
+
+				&-1 {
+							
+				}
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0);
+  }
+}
