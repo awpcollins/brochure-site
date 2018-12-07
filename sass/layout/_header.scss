@@ -5,11 +5,10 @@
       rgba($color-primary-dark, 0.9),
       rgba($color-primary-light, 0.1)
     ),
-    
-    // url(../img/johannes-plenio-247177-unsplash.jpg);
     url(../img/niilo-isotalo-379496-unsplash.jpg);
   background-size: cover;
   background-position: top;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
   position: relative;
 

@@ -1,6 +1,6 @@
 .section-about {
   background-color: $color-grey-light-1;
-  padding: 25rem 0;
+  padding: 22.5rem 0;
   margin-top: -20vh;
 }
 
@@ -8,10 +8,12 @@
   padding: 20rem 0;
   background-image: linear-gradient(
       to right bottom,
-      rgba($color-primary-dark, 0.9),
+      rgba($color-primary-dark, 0.7),
       rgba($color-primary-light, 0.1)
     ),
-    url(/img/james-zwadlo-88308-unsplash.jpg);
+    url(/img/angel-origgi-1198759-unsplash.jpg);
+    // url(/img/ben-klea-1199394-unsplash.jpg);
+    // url(/img/mark-basarab-121662-unsplash.jpg);
   background-size: cover;
   transform: skewY(-5deg);
   margin-top: -10rem;
@@ -23,6 +25,11 @@
 
 .section-panels {
   background-color: $color-grey-light-1;
-  padding: 25rem 0 50rem 0;
+  padding: 22.5rem 0 2rem 0;
   margin-top: -10rem;
+}
+
+.section-stories {
+  padding: 2.5rem 0;
+  position: relative;
 }
