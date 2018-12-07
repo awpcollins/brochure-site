@@ -11,9 +11,9 @@
       rgba($color-primary-dark, 0.7),
       rgba($color-primary-light, 0.1)
     ),
-    url(/img/angel-origgi-1198759-unsplash.jpg);
-    // url(/img/ben-klea-1199394-unsplash.jpg);
-    // url(/img/mark-basarab-121662-unsplash.jpg);
+    url(../img/angel-origgi-1198759-unsplash.jpg);
+  // url(/img/ben-klea-1199394-unsplash.jpg);
+  // url(/img/mark-basarab-121662-unsplash.jpg);
   background-size: cover;
   transform: skewY(-5deg);
   margin-top: -10rem;
@@ -32,4 +32,33 @@
 .section-stories {
   padding: 2.5rem 0;
   position: relative;
+}
+
+.section-book {
+  padding: 15rem 0;
+  background-image: linear-gradient(
+    to right bottom,
+    $color-primary-light,
+    $color-primary-dark
+  );
+}
+
+.book {
+  background-image: linear-gradient(
+      105deg,
+      rgba($color-white, 0.9) 0%,
+      rgba($color-white, 0.9) 50%,
+      transparent 50%
+    ),
+    url(../img/nat-10.jpg);
+  background-size: 100%;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
+  height: 50rem;
+
+  &__form {
+    width: 50%;
+    padding: 6rem;
+  }
+
 }
