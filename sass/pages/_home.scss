@@ -1,5 +1,10 @@
 .section-about {
-  background-color: $color-grey-light-1;
+  // background-color: $color-grey-light-1;
+   background-image: linear-gradient(
+    to right bottom,
+    rgba($color-grey-light-1, .1),
+    rgba($color-primary-dark, .1)
+  );
   padding: 22.5rem 0;
   margin-top: -20vh;
 }
@@ -24,7 +29,12 @@
 }
 
 .section-panels {
-  background-color: $color-grey-light-1;
+  // background-color: $color-grey-light-1;
+   background-image: linear-gradient(
+    to right bottom,
+    rgba($color-grey-light-1, .1),
+    rgba($color-primary-dark, .1)
+  );  
   padding: 22.5rem 0 2rem 0;
   margin-top: -10rem;
 }
@@ -36,10 +46,11 @@
 
 .section-book {
   padding: 15rem 0;
+  // background-color: $color-grey-light-1;
   background-image: linear-gradient(
     to right bottom,
-    $color-primary-light,
-    $color-primary-dark
+    rgba($color-grey-light-1, .1),
+    rgba($color-primary-dark, .1)
   );
 }
 
@@ -53,12 +64,11 @@
     url(../img/nat-10.jpg);
   background-size: 100%;
   border-radius: 3px;
-  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
+  box-shadow: 0 1.5rem 4rem rgba($color-black, 0.3);
   height: 50rem;
 
   &__form {
     width: 50%;
     padding: 6rem;
   }
-
 }
