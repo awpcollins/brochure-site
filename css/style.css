@@ -256,13 +256,13 @@ body {
     .card__side--back {
       transform: rotateY(180deg); }
       .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, rgba(66, 87, 77, 0.3), rgba(31, 32, 26, 0.3)), url(../img/niilo-isotalo-379496-unsplash.jpg);
+        background-image: linear-gradient(to right bottom, rgba(66, 87, 77, 0.3), rgba(31, 32, 26, 0.3)), url(../img/niilio-encoded-87-900.jpg);
         background-size: cover; }
       .card__side--back-2 {
-        background-image: linear-gradient(to right bottom, rgba(66, 87, 77, 0.3), rgba(31, 32, 26, 0.3)), url(../img/johannes-plenio-247177-unsplash.jpg);
+        background-image: linear-gradient(to right bottom, rgba(66, 87, 77, 0.3), rgba(31, 32, 26, 0.3)), url(../img/johannes-plenio-87-900.jpg);
         background-size: cover; }
       .card__side--back-3 {
-        background-image: linear-gradient(to right bottom, rgba(66, 87, 77, 0.3), rgba(31, 32, 26, 0.3)), url(../img/roksolana-zasiadko-112873-unsplash.jpg);
+        background-image: linear-gradient(to right bottom, rgba(66, 87, 77, 0.3), rgba(31, 32, 26, 0.3)), url(../img/roksolana-zasiadko-87-900.jpg);
         background-size: cover; }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
@@ -277,11 +277,11 @@ body {
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; }
     .card__picture--1 {
-      background-image: linear-gradient(to right bottom, #42574D, #1F201A), url(../img/nat-5.jpg); }
+      background-image: linear-gradient(to right bottom, #42574D, #1F201A), url(../img/nat-5-87.jpg); }
     .card__picture--2 {
-      background-image: linear-gradient(to right bottom, #42574D, #1F201A), url(../img/nat-6.jpg); }
+      background-image: linear-gradient(to right bottom, #42574D, #1F201A), url(../img/nat-6-87.jpg); }
     .card__picture--3 {
-      background-image: linear-gradient(to right bottom, #42574D, #1F201A), url(../img/nat-7.jpg); }
+      background-image: linear-gradient(to right bottom, #42574D, #1F201A), url(../img/nat-7-87.jpg); }
   .card__heading {
     font-size: 2.8rem;
     font-weight: 300;
@@ -653,12 +653,18 @@ body {
 
 .header {
   height: 75vh;
-  background-image: linear-gradient(to right bottom, rgba(13, 16, 13, 0.9), rgba(55, 114, 45, 0.1)), url(../img/niilo-isotalo-379496-unsplash.jpg);
+  background-image: linear-gradient(to right bottom, rgba(13, 16, 13, 0.9), rgba(55, 114, 45, 0.1)), url(../img/niilio-encoded-87-1800.jpg);
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
   position: relative; }
+  @media only screen and (max-width: 37.5em) {
+    .header {
+      background-image: linear-gradient(to right bottom, rgba(13, 16, 13, 0.9), rgba(55, 114, 45, 0.1)), url(../img/niilio-encoded-87-900.jpg); } }
+  @media only screen and (min-width: 112.5em) {
+    .header {
+      background-image: linear-gradient(to right bottom, rgba(13, 16, 13, 0.9), rgba(55, 114, 45, 0.1)), url(../img/niilio-encoded-87.jpg); } }
   .header__logo-box {
     position: absolute;
     top: 3.5rem;
@@ -897,7 +903,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(13, 16, 13, 0.7), rgba(55, 114, 45, 0.1)), url(../img/angel-origgi-1198759-unsplash.jpg);
+  background-image: linear-gradient(to right bottom, rgba(13, 16, 13, 0.7), rgba(55, 114, 45, 0.1)), url(../img/angel-encoded-87-1800.jpg);
   background-size: cover;
   transform: skewY(-5deg);
   margin-top: -10rem; }
@@ -930,18 +936,18 @@ body {
       padding: 10rem 0; } }
 
 .book {
-  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+  background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10-87.jpg);
   background-size: 100%;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.3);
   height: 50rem; }
   @media only screen and (max-width: 75em) {
     .book {
-      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-10.jpg);
+      background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-10-87.jpg);
       background-size: cover; } }
   @media only screen and (max-width: 56.25em) {
     .book {
-      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-10.jpg); } }
+      background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-10-87.jpg); } }
   .book__form {
     width: 50%;
     padding: 6rem; }

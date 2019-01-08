@@ -1099,7 +1099,7 @@ body {
 
 .header {
   height: 75vh;
-  background-image: linear-gradient(to right bottom, rgba(13, 16, 13, 0.9), rgba(55, 114, 45, 0.1)), url(../img/niilo-isotalo-379496-unsplash.jpg);
+  background-image: linear-gradient(to right bottom, rgba(13, 16, 13, 0.9), rgba(55, 114, 45, 0.1)), url(../img/niilio-encoded-87-1800.jpg);
   background-size: cover;
   background-position: top;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
@@ -1343,7 +1343,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(13, 16, 13, 0.7), rgba(55, 114, 45, 0.1)), url(../img/angel-origgi-1198759-unsplash.jpg);
+  background-image: linear-gradient(to right bottom, rgba(13, 16, 13, 0.7), rgba(55, 114, 45, 0.1)), url(../img/angel-encoded-87.jpg);
   background-size: cover;
   transform: skewY(-5deg);
   margin-top: -10rem; }
