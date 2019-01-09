@@ -29,7 +29,7 @@
             rgba($color-road-light, 0.3),
             rgba($color-trees-dark, 0.3)
           ),
-          url(../img/niilio-encoded-87-900.jpg);
+          url(../img/niilo-isotalo-379496-unsplash-1800.webp);
         background-size: cover;
       }
 
@@ -49,7 +49,7 @@
             rgba($color-road-light, 0.3),
             rgba($color-trees-dark, 0.3)
           ),
-          url(../img/roksolana-zasiadko-87-900.jpg );
+          url(../img/roksolana-zasiadko-112873-unsplash-900.webp);
         background-size: cover;
       }
     }
@@ -78,7 +78,7 @@
           $color-road-light,
           $color-trees-dark
         ),
-        url(../img/nat-5-87.jpg);
+        url(../img/nat-5-400.webp);
     }
 
     &--2 {
@@ -87,7 +87,7 @@
           $color-road-light,
           $color-trees-dark
         ),
-        url(../img/nat-6-87.jpg);
+        url(../img/nat-6-400.webp);
     }
 
     &--3 {
@@ -96,7 +96,7 @@
           $color-road-light,
           $color-trees-dark
         ),
-        url(../img/nat-7-87.jpg);
+        url(../img/nat-7-400.webp);
     }
   }
 
@@ -111,20 +111,6 @@
     top: 11rem;
     right: 2rem;
     width: 75%;
-  }
-
-  &__heading-span {
-    // padding: 1rem 1.5rem;
-    // -webkit-box-decoration-break: clone;
-    // box-decoration-break: clone;
-
-    // &-1 {
-    //   background-image: linear-gradient(
-    //       to right bottom,
-    //       rgba($color-road-light, .8),
-    //       rgba($color-trees-dark, .8)
-    //     );
-    // }
   }
 
   &__details {
