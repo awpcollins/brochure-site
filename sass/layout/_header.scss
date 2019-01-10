@@ -1,5 +1,11 @@
 .webp .header {
-  background-image:url(../img/niilo-gradient-1800.webp);
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-road-light, 0.2),
+      rgba($color-trees-dark, 0.2)
+    ),
+    url(../img/niilo-isotalo-379496-unsplash-1800.webp);
+
   height: 75vh;
   background-size: cover;
   background-position: top;
