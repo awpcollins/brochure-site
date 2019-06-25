@@ -702,7 +702,7 @@ body {
     .card__side--back {
       transform: rotateY(180deg); }
       .card__side--back-1 {
-        background-image: linear-gradient(to right bottom, rgba(66, 87, 77, 0.3), rgba(31, 32, 26, 0.3)), url(../img/niilo-encoded-87-1800.jpg);
+        background-image: linear-gradient(to right bottom, rgba(66, 87, 77, 0.3), rgba(31, 32, 26, 0.3)), url(../img/niilio-encoded-87-1800.jpg);
         background-size: cover; }
       .card__side--back-2 {
         background-image: linear-gradient(to right bottom, rgba(66, 87, 77, 0.3), rgba(31, 32, 26, 0.3)), url(../img/johannes-plenio-87-900.jpg);
@@ -1345,7 +1345,7 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to right bottom, rgba(13, 16, 13, 0.7), rgba(55, 114, 45, 0.1)), url(../img/angel-origgi-1198759-unsplash-1800.webp);
+  background-image: linear-gradient(to right bottom, rgba(13, 16, 13, 0.7), rgba(55, 114, 45, 0.1)), url(../img/angel-encoded-87.jpg);
   background-size: cover;
   transform: skewY(-5deg);
   margin-top: -10rem; }
