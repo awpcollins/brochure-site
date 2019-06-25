@@ -46,3 +46,9 @@
     text-align: center;
   }
 }
+
+.header .webp {
+	@include respond(phone) {
+    background-image: url(../img/niilo-isotalo-379496-unsplash-900.webp);
+  }
+}
