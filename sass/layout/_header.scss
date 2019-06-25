@@ -15,14 +15,9 @@
   clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
   position: relative;
 
-  // @include respond(phone) {
-  //   background-image: linear-gradient(
-  //       to right bottom,
-  //       rgba($color-primary-dark, 0.9),
-  //       rgba($color-primary-light, 0.1)
-  //     ),
-  //     url(../img/niilio-encoded-87-900.jpg);
-  // }
+  @include respond(phone) {
+    background-image: url(../img/niilio-encoded-87-900.jpg);
+  }
 
   // @include respond(big-desktop) {
   //   background-image: linear-gradient(
