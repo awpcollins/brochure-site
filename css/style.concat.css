@@ -1097,7 +1097,7 @@ body {
   .popup__close:hover {
     color: #37722d; }
 
-.webp .header {
+.header {
   height: 75vh;
   background-size: cover;
   background-position: top;
@@ -1105,15 +1105,15 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
   position: relative; }
   @media only screen and (max-width: 37.5em) {
-    .webp .header {
+    .header {
       background-image: url(../img/niilio-encoded-87-900.jpg); } }
-  .webp .header__logo-box {
+  .header__logo-box {
     position: absolute;
     top: 3.5rem;
     left: 3.5rem; }
-  .webp .header__logo {
+  .header__logo {
     height: 4rem; }
-  .webp .header__text-box {
+  .header__text-box {
     position: absolute;
     top: 40%;
     left: 50%;
