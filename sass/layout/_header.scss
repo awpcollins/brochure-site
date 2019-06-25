@@ -1,20 +1,4 @@
-.header {
-  // background-image: 
-  // linear-gradient(
-  //     to right bottom,
-  //     rgba($color-road-light, 0.2),
-  //     rgba($color-trees-dark, 0.2)
-  //   ),
-    // url(../img/niilo-isotalo-379496-unsplash-1800.webp);
-    // url(../img/niilio-encoded-87-900.jpg);
-
-  height: 75vh;
-  background-size: cover;
-  background-position: top;
-  -webkit-clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
-  clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
-  position: relative;
-
+.no-webp .header {
   @include respond(phone) {
     background-image: url(../img/niilio-encoded-87-900.jpg);
   }
@@ -27,8 +11,23 @@
   //     ),
   //     url(../img/niilio-encoded-87.jpg);
   // }
+}
 
-  &__logo-box {
+ .webp .header  {
+	@include respond(phone) {
+    background-image: url(../img/niilo-isotalo-379496-unsplash-900.webp);
+  }
+}
+
+.header {
+	 height: 75vh;
+  background-size: cover;
+  background-position: top;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 65vh, 0 100%);
+  position: relative;
+
+		&__logo-box {
     position: absolute;
     top: 3.5rem;
     left: 3.5rem;
@@ -44,11 +43,5 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-  }
-}
-
-.header .webp {
-	@include respond(phone) {
-    background-image: url(../img/niilo-isotalo-379496-unsplash-900.webp);
   }
 }
