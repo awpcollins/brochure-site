@@ -675,16 +675,6 @@ body {
   padding: 3px;
   transition: all 0.2s; }
 
-.btn-text:hover {
-  background-color: #37722d;
-  color: #fff;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
-  transform: translateY(-2px); }
-
-.btn-text:active {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  transform: translateY(0px); }
-
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
